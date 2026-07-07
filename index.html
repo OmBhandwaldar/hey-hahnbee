@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Om Bhandwaldar</title>
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --fg: #ededed;
+    --muted: #8a8a8a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.7;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 12vh 28px 0;
+  }
+  h1 {
+    font-size: 1.55rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-bottom: 1.4rem;
+  }
+  p {
+    font-size: 1rem;
+    color: var(--fg);
+    margin-bottom: 1rem;
+  }
+  .muted { color: var(--muted); }
+  a {
+    color: var(--fg);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--muted);
+  }
+  a:hover { text-decoration-color: var(--fg); }
+  .links {
+    margin-top: 1.8rem;
+    font-size: 0.95rem;
+  }
+  .links a { margin-right: 18px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Om Bhandwaldar</h1>
+    <p>Backend &amp; infrastructure engineer. I build and ship systems end to end.</p>
+    <p class="muted">I built this page because I want to work with you at Mintlify.</p>
+    <div class="links">
+      <a href="https://github.com/OmBhandwaldar" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/om-bhandwaldar" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</body>
+</html>
